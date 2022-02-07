@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html dir="auto" lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Privacy - My Page Title</title>
+
+	<meta name="description" content="My Page Description" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./content/image/4i0iz6upn5leyhzt70xv.png" />
+	<meta property="og:title" content="Privacy - My Page Title" />
+	<meta property="og:description" content="My Page Description" />
+	<meta property="og:image" content="assets/og-image.png" />
+
+	<link rel="stylesheet" href="assets/tobi.css" />
+	<link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/filter.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+	<body>
+		<main>
+            <div class="container">
+				<nav class="bg-transparent navbar navbar-light bg-light">
+					<div class="container-fluid">
+					  <a href="./index.html" class="navbar-brand logotitle"><span>The</span> Look</a>
+					  <ul class="nav justify-content-end">
+						<li class="nav-item">
+						  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="./about.html">About</a>
+						</li>
+						<li class="nav-item">
+                            <a class="nav-link" href="./products.html">Products</a>
+                          </li>
+						<li class="nav-item">
+						  <a class="nav-link" href="./team.html">Team</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="https://github.com/E-LOOK/E-look.github.io">GitHub</a>
+						</li>
+					  </ul>
+					</div>
+				</nav>
+			</div>
+            <div>
+                <!-- banner with carousel -->
+    <div class="banner-section1">
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="si slide_i4"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="si slide_i1"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="si slide_i2"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="si slide_i3"></div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="si slide_i5"></div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="text-center p-xl-4">
+        <h1>Sample of Products & services</h1>
+      </div>
+      <!-- services section -->
+      <div class="filter-sec">
+        <div class="text-center p-xl-4">
+          <h2>Hair styles</h2>
+        </div>
+        <div id="myBtnContainer">
+          <button class="btn" onclick="filterSelection('cars')">Men</button>
+          <button class="btn" onclick="filterSelection('colors')">Women</button>
+          <button class="btn" onclick="filterSelection('animals')">
+            Children
+          </button>
+        </div>
+        <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+        <div class="product-items container">
+          <div class="filterDiv cars">
+            <div class="itempic1">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Mens Braids</h1>
+                  <p>They come in different colors.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv cars">
+            <div class="itempic2">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Puffy Hair</h1>
+                  <p>The hair is lifted.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv cars">
+            <div class="itempic3">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Black horn</h1>
+                  <p>Hair with a Horn at the end.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv colors">
+            <div class="itempic4">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Colored Hair</h1>
+                  <p>Purple short colored hair.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv colors">
+            <div class="itempic5">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Black long Braids</h1>
+                  <p>Braided Hair thats Long.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv colors">
+            <div class="itempic6">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Brown short Braids</h1>
+                  <p>Braided Hair thats short.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv animals">
+            <div class="itempic7">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Clean shave</h1>
+                  <p>Level one, hair is short and clean.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv animals">
+            <div class="itempic8">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Curly short hair</h1>
+                  <p>The hair is curled and short for boys.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv animals">
+            <div class="itempic9">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Curly Long Hair</h1>
+                  <p>Curly Long hair for girls.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- products section -->
+      <div class="filter-sec">
+        <div class="text-center p-xl-4">
+          <h2>Products Section</h2>
+        </div>
+        <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+        <div class="product-items container">
+          <div class="filterDiv cars">
+            <div class="prod1">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>The Rover</h1>
+                  <p>This good for smoothening skin and hair.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv cars">
+            <div class="prod2">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Equipment</h1>
+                  <p>These tools help men to have clean shaves.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv cars">
+            <div class="prod3">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Equipment 2</h1>
+                  <p>These are also used during shaving.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv colors">
+            <div class="prod4">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Ordinary</h1>
+                  <p>This lotion is used for both skin and Hair care.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv colors">
+            <div class="prod5">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Gommos Professional</h1>
+                  <p>Equipment used to straighten womens hair.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filterDiv colors">
+            <div class="prod6">
+              <div class="descriptio">
+                <div class="p-xl-3">
+                  <h1>Fug0</h1>
+                  <p>
+                    Used to comb hair and the lotion is used to keep your hair wet
+                    for 24hrs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            </div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__container">
+					<p class="footer__love">
+						<script>document.write('&copy;' + (new Date()).getFullYear());</script><noscript>&copy;2022</noscript> All rights reserved
+							&mdash; Template by <a href="https://www.sandoche.com" target="_blank">Sandoche</a>
+							&mdash; Powered by <a href="https://t3mpl.n4no.com/" target="_blank" title="T3MPL Editor">T3MPL</a>
+					</p>
+					<ul class="footer__links">
+							<li class="footer__link">
+								<a href="page-1.html">Privacy</a>
+							</li>
+							<li class="footer__link">
+								<a href="https://github.com/E-LOOK/E-look.github.io" targe="_blank">GitHub</a>
+							</li>
+							<li class="footer__link">
+								<a href="https://github.com/E-LOOK/E-look.github.io" targe="_blank">GitHub</a>
+							</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+        <script src="./js/filter.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/tobi.min.js" /></script>
+        <script src="./js/main.js"></script>
+		<script>
+			window.onload = function () {
+				var tobi = new Tobi();
+			};
+		</script>
+        <!-- js -->
+<script src="./js/main.js"></script>
+<script>
+  ScrollOut({
+    targets: "div,h1,h2,h4,h5,button,p,span,a",
+  });
+</script>
+  </body>
+</html>

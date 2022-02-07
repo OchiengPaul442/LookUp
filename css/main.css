@@ -1,0 +1,515 @@
+.logotitle span {
+  color: rgb(223, 188, 146);
+  font-size: 30px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-con {
+  padding-bottom: 100px;
+  height: 100%;
+}
+
+.fttitle a {
+  font-size: 45px;
+}
+
+.con-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: #b6b6b6;
+}
+
+.socials a img {
+  width: 50px;
+}
+.email_phone {
+  margin: 10px 0;
+}
+
+.copyryt {
+  width: 100%;
+  position: absolute;
+  bottom: 3px;
+}
+
+.banner {
+  width: 100%;
+  height: 360px;
+  transition: all 0.5s ease;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url(../assets/img/beauty-salon-g55a607566_1280.jpg);
+  background-position: center 60%;
+  background-size: cover;
+}
+
+.banner h1 {
+  font-size: 80px;
+  position: relative;
+}
+
+.banner h1::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #0ae6eb;
+  transform-origin: left;
+  transform: scaleX(1);
+  transition: all 0.6s ease-out;
+}
+
+.banner h1[data-scroll="in"]::before {
+  transform: scaleX(0);
+  transition-delay: 1.2s;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.card1 {
+  transform: translateY(50px);
+  transition: all 0.6s ease-in;
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  padding: 10px;
+  opacity: 0;
+  background-color: #e2e2e2;
+  box-shadow: 0, 3px, 3px rgba(0, 0, 0, 0.3);
+}
+
+.ss1[data-scroll="in"] {
+  transform: translateY(0);
+  opacity: 1;
+  transition-delay: 0.8s;
+}
+.ss2[data-scroll="in"] {
+  transform: translateY(0);
+  transition-delay: 1s;
+  opacity: 1;
+}
+.ss3[data-scroll="in"] {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 1.2s;
+}
+
+.icon img {
+  width: 30px;
+}
+
+.startup {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.startup-con {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #9a9a9a;
+}
+
+.startup-con h1 {
+  width: 80%;
+  font-size: 45px;
+}
+
+.startup-con p {
+  width: 60%;
+  margin: 30px 0;
+  font-size: 19px;
+}
+
+.Accbtn {
+  text-decoration: none;
+  color: black;
+  width: 400px;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-right: 13px;
+}
+
+.acc1 {
+  background-color: #0ae6eb;
+}
+
+.acc2 {
+  border: 2px solid black;
+}
+
+.image-sec img {
+  width: 400px;
+}
+
+.features {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.feature-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f_1 {
+  margin-top: 40px;
+  transition: all 0.6s ease-in;
+  opacity: 0;
+  transform: translateX(300px);
+}
+
+.f_1 img {
+  width: 65px;
+  height: 65px;
+  color: #0ae6eb;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.f_1_1[data-scroll="in"] {
+  transform: translateX(0);
+  opacity: 1;
+  transition-delay: 0.6s;
+}
+
+.f_1_2[data-scroll="in"] {
+  transform: translateX(0);
+  opacity: 1;
+  transition-delay: 0.8s;
+}
+
+.f_1_3[data-scroll="in"] {
+  transform: translateX(0);
+  opacity: 1;
+  transition-delay: 1s;
+}
+
+.f_1 p {
+  width: 500px;
+}
+
+.column {
+  float: left;
+  /* height: 400px; */
+  width: 35%;
+  /* margin-bottom: 26px; */
+  margin: 50px 30px;
+  padding: 0 8px;
+  transition: all 0.6s ease;
+  cursor: pointer;
+}
+
+.imga{
+  width: 100%;
+  height: 400px;
+  background-image: url(../content/image/paul.jpg);
+  background-position: top 2%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imga1{
+  width: 100%;
+  height: 400px;
+  background-image: url(../content/image/nyanzi.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.imga2{
+  width: 100%;
+  /* background-position: bottom; */
+  height: 400px;
+  background-image: url(../content/image/mips.jpeg);
+  background-position: center 20%;
+  background-size: cover;
+}
+
+.imga3{
+  width: 100%;
+  /* background-position: bottom; */
+  height: 400px;
+  background-image: url(../content/image/philip.jpeg);
+  background-position: center 12%;
+  background-size: cover;
+}
+
+.imga4{
+  width: 100%;
+  /* background-position: bottom; */
+  height: 400px;
+  background-image: url(../content/image/kirabo.jpeg);
+  background-position: center 2%;
+  background-size: cover;
+}
+
+.column:hover {
+  transform: translateY(-10px);
+}
+
+.about-title {
+  width: 100%;
+  height: 800px;
+  clip-path: polygon(100% 0, 100% 42%, 71% 65%, 0 50%, 0 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url(../assets/img/headway-5QgIuuBxKwM-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.he0 {
+  top: 80px;
+  position: relative;
+}
+
+.head1 {
+  font-size: 13px;
+  transition: all 0.8s ease-in;
+  opacity: 0;
+}
+
+.head1[data-scroll="in"] {
+  opacity: 1;
+  font-size: 55px;
+}
+
+.title h1{
+  font-size: 45px;
+}
+
+@media screen and (max-width: 750px) {
+  .startup-con p {
+    font-size: 17px;
+  }
+  .card1 {
+    opacity: 1;
+    transform: none;
+  }
+  .f_1 {
+    transform: none;
+    opacity: 1;
+  }
+  .fttitle a {
+    font-size: 25px;
+  }
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #212529;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.4s ease;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+  .phone img {
+    width: 325px;
+  }
+
+@media (max-width: 1200px) {
+  .banner {
+    height: 400px;
+  }
+  .startup-con h1 {
+    font-size: 40px;
+  }
+  .image-sec img {
+    width: 400px;
+  }
+  .phone img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 950px) {
+  .image-sec img {
+    width: 300px;
+  }
+  .phone img {
+    width: 200px;
+  }
+  .banner {
+    height: 530px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .startup-con {
+    margin-top: 300px;
+  }
+}
+
+@media (max-width: 760px) {
+  .socials A img {
+    position: relative;
+    top: 40px;
+    width: 26px;
+  }
+  .con-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .startup-con p {
+    width: 100%;
+    margin: 30px 0;
+    font-size: 20px;
+  }
+  .f_1 p {
+    width: 100%;
+  }
+  .banner {
+    width: 100%;
+    height: 190px;
+    transition: all 0.5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+      url(../assets/img/beauty-salon-g55a607566_1280.jpg);
+    background-position: center 60%;
+    background-size: cover;
+  }
+
+  .socials {
+    text-align: center;
+  }
+
+  .socials a {
+    font-size: 30px;
+  }
+
+  .copyryt {
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 40px;
+    /* margin-bottom: 200px; */
+  }
+
+  .image-sec {
+    display: none;
+  }
+
+  .startup {
+    margin-top: 400px;
+  }
+
+  .startup-con {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    background-color: #e2e2e2;
+  }
+
+  .startup-con h1 {
+    width: 100%;
+    font-size: 35px;
+  }
+
+  .startup-con p {
+    font-size: 20px;
+  }
+
+  .phone {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .startup-con p {
+    width: 100%;
+    margin: 30px 0;
+    font-size: 20px;
+  }
+  .socials A img {
+    position: relative;
+    top: 40px;
+    width: 30px;
+  }
+  .Accbtn {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .con-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner h1 {
+    font-size: 30px;
+  }
+
+  .copyryt h5 {
+    font-size: 15px;
+  }
+  .banner {
+    height: 100px;
+    display: none;
+  }
+}
+
+.footer__love a{
+    text-decoration: none;
+}
+
+.footer__link a{
+    text-decoration: none;
+}
